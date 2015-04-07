@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class fdnaq {
 
-	 //递归
+	 //ʹ�õݹ鷽��
 	 private int getFibo(int i) {
 		 if(i==0)
 			 return 0;
