@@ -58,3 +58,24 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY com.genuitec.eclipse.core 1 0 2015-04-07 17:50:35.874
 !MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.eclipse.ui.ide 4 4 2015-04-07 18:55:31.503
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2015-04-07 18:55:31.513
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-07 18:55:31.513
+!MESSAGE The project description file (.project) for 'YH' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-07 18:55:31.513
+!MESSAGE The project description file (.project) for 'demo' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-04-07 18:55:31.513
+!MESSAGE The project description file (.project) for 'yanghui' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2015-04-08 08:54:13.504 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.genuitec.eclipse.core 1 0 2015-04-08 08:54:57.262
+!MESSAGE Unable to locate .myeclipse.properties file
