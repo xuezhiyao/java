@@ -1,0 +1,22 @@
+
+public class Jj {
+	 static String  strs[]={"一一得一","一二得二","二二得四","一三得三","二三得六","三三得九",""};
+	public static void main(String[] args)
+	{
+	for(int i=1;i<=3;i++)
+	{
+		for(int j=1;j<=i;j++)
+		{
+			
+		System.out.printf("%s  ",strs[i]);	
+			
+		}
+		System.out.println();
+		
+		
+	}
+		
+		
+	}
+
+}

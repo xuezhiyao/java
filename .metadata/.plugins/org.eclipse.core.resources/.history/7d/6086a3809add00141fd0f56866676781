@@ -1,0 +1,43 @@
+
+public class oneday {
+	
+	private static final String BREAKFASET = 1;
+	private static final String LUNCH = 2;
+	private static final String SUPPER = 3;
+
+	public static void main(String[] args) {
+		oneday one = new oneday();
+		one.sleep();
+		one.have_meal(BREAKFASET);
+		one.goto_work();
+		one.code();
+		one.have_meal(LUNCH);
+		one.code();
+		one.return_home();
+		one.have_meal(SUPPER);
+	}
+switch(one.have_meal)
+{case 1:break;
+case 2:break;
+case3;break;
+
+}
+	private void code() {
+		System.out.print("having code");
+	}
+
+	private void return_home() {
+		System.out.print("return_home");
+		
+	}
+
+	private void goto_work() {
+		System.out.print("having goto_work");
+		
+	}
+
+	private void sleep() {
+		System.out.print("having sleep");
+		
+	}
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class zc {
+	private int n;
+
+	public int shu(int i)
+	{
+	for(int i = 0;i<=n;i++)
+		{
+		if(i%2==0)
+		{
+		return	i;
+			
+		}
+			}
+		}
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int num = scanner.nextInt();
+		shu f = new shu();
+		for(int i=0; i<num; i++)
+			System.out.printf("%d ", f.fib(i));	
+		
+	}
+
+

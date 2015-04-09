@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class zc {
+	private int n;
+	{
+	for(int i= 0;i<=n;i++)
+	public int shu(int i)
+	{
+	
+		{
+		if(i%2==0)
+		{
+		return	i;
+			
+		}
+			}
+	}
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		zc f = new zc();
+		for(int i=0; i<n; i++)
+			System.out.printf("%d ", f.shu(i));	
+		
+	}
+
+	}

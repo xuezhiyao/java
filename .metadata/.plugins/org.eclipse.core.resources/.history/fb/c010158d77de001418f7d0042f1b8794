@@ -1,0 +1,44 @@
+
+public class Person {
+	private String name ;
+	private String xingbie ;	
+	private int age ;
+	private Boolean marry;
+	public  String getname()
+	{
+		return name;
+		}
+	public String xingbie()
+	{
+		return xingbie;
+	}
+	public int age()
+	{
+		return age;
+		}
+	public Boolean marry()
+	{
+		if((xingbie=="man"&&age>=22)||(xingbie=="woman"&&age>=20))
+		{
+	
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+	
+	}
+	public Person(String name,String xingbie,int age,Boolean marry)
+	{
+	this.name=getname();
+	this.age=age();
+	this.xingbie=xingbie();
+	this.marry=marry();
+	};
+public static void main()
+{//name a=new name()
+//a.name=
+System.out.printf("%s","name");
+	}
+}

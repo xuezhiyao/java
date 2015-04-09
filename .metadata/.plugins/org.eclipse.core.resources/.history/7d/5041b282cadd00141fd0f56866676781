@@ -1,0 +1,10 @@
+
+public class Jj {
+	String str[]=new String[]{"一一得一","一二得二","二二得四","一三得三","二三得六","三三得九",""};
+	public static void main(String[] args)
+	{
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class Jj {
+	 String  strs[]={"一一得一","一二得二","二二得四","一三得三","二三得六","三三得九",""};
+	public static void main(String[] args)
+	{
+	for(int i=1,j=1;i<=j;i++)
+	{
+		for(;j<=9;j++)
+		{
+			
+		System.out.print("%s",strs[]);	
+			
+		}
+		
+		
+	}
+		
+		
+	}
+
+}

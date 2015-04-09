@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+public class jjcfb{
+	public int shu(int i)
+	{
+		
+	return i ;
+		
+	}
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		jjcfb f = new jjcfb();
+		for(int i=1; i<=n; i++)
+			{if(f.shu(i)%2&&f.shu(i)%3==0)
+			{
+			System.out.printf("%d ", i);	
+			}
+			}
+		
+	}
+
+}
